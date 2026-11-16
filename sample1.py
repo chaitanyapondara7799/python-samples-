@@ -30,7 +30,7 @@ def SumOfArray(arr,n):
         sum+=i
     return sum 
 
-p=int(input("enter values of an array "))
+p=input("enter values of an array ")
 array=list(map(int,p.split(" ")))
 length=len(array)
 
